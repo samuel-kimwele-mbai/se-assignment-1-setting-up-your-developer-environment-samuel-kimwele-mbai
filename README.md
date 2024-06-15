@@ -110,15 +110,118 @@ This assignment aims to familiarize you with the tools and configurations necess
 2. Install a Text Editor or Integrated Development Environment (IDE):
    Select and install a text editor or IDE suitable for your programming languages and workflow. Download and Install Visual Studio Code. https://code.visualstudio.com/Download
 
+- Step 2: Visit https://code.visualstudio.com/download and download the version specific to your OS. For my case it is windows. once you visit the above link you land at this page. 
+![alt text](image1.png)
+
+ - step 2: Download process will start. This screen is seen at this step.
+ ![alt text](image2.png)
+
+ - step 3: Once the download is complete. Open the file and accept the agreement., you can also open the file by navigating to the folder where the file was stored after being doenloaded and double click on it. 
+ this is the image that is seen at this stage. ![alt text](image3.png)
+
+- step 4: Select the drive location where you need to install the VS Code.
+use the default location. This is the image that is seen at this stage. 
+![alt text](image4.png)
+
+- step 5: Next, you have to Select the folder name for the VS Code setup files. This is the window that appears. ![alt text](image5.png)
+
+- step 6: Next, Select the additional task, that you want to do by the installer. like, you may want to have "Open with Code" added to both the File and Directory content menu, hence you have to selected those. This is the image that appears. ![alt text](image6.png)
+
+- step 7: In this step, Check if all the settings.AS shown below
+![alt text](image7.png)
+
+- step 8: Here, you click the install button and the installation proces begins. As shown below. 
+![alt text](image8.png)
+
+- step 9: Once the installations is complete click "Finish". as shown below.
+![alt text](image9.png)
+
+- step 10: After VS code has opened, choose the theme. as shown below
+![alt text](image10.png)
+
+- step 11: Here you can sync all your setting either with GitHub or Microsoft Account.As shown below.
+![alt text](image11.png)
+
+- step 12: In this step, Select what all you want to Sync. Click "Sign-in & Turn on".
+![alt text](image12.png)
+
+- step 13: Go to the extensions, using Ctrl+Shift+X and search for the extensions that you need to use. here are some of the extensions that I have installed.
+![alt text](image13.png) 
+![alt text](image14.png) 
+![alt text](image15.png) 
+![alt text](image16.png) 
+![alt text](image17.png) 
+![alt text](image18.png)
 
 
-
-
-
-
-   
 3. Set Up Version Control System:
    Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
+
+- How To Install Git on Windows 11
+- Step 1: Download the Windows Installer: by visting the Official Git website "https://git-scm.com/download/win" 
+
+- Step 2: Run the Installer:  Confirm that the app can make changes to your device by clicking Yes
+![alt text](image-1.png)
+
+- Step 3: The installer will request an installation location. Keep the default unless you need to change it, and click Next.
+![alt text](image-2.png)
+
+-Step 4: A component selection screen will be displayed. Keep the default settings unless you need to modify them, and click Next.
+![alt text](image-3.png)
+
+- Step 5: A prompt to create a start folder will appear as shown. Leave it as is and click Next.
+![alt text](image-4.png)
+
+- Step 6: Choose a text editor to use with Git. Click on the drop-down menu to pick the text editor like Vim, Notepad++, etc and click Next.
+![alt text](image-5.png)
+
+- Step 7: In this step, one can opt to rename your initial branch. The default is master, and click Next.
+![alt text](image-6.png)
+
+- Step 8: This step is about modifying the PATH environment. Leave this on the recommended selection, Git from the command line and also from 3rd party software and click Next.
+![alt text](image-7.png)
+
+- Step 9: On this step, one needs  to pick the SSH program you want to use. Git comes with its own SSH client, so leave the default settings checked. Click Next.
+![alt text](image-8.png)
+
+- Step 10: The following option concerns server certificates, choose the default, Use the OpenSSL library. Click Next.
+![alt text](image-9.png)
+
+- Step 11: This step deals with line ending conversions. Leave it set to the default option, Checkout Windows-style, commit Unix-style line endings. Click Next.
+![alt text](image-10.png)
+
+- Step 12: In this step, you’ll be needed to select the terminal emulator. The default MinTTY is recommended. Click Next.
+![alt text](image-11.png)
+
+- Step 13: Here you’ll be asked what the git pull command should do. Again, the default option is recommended. Click Next.
+![alt text](image-12.png)
+
+- Step 14: In this step, You’ll need to choose which credential helper to use next. Keep the default option selected and click Next.
+![alt text](image-13.png)
+
+- Step 15: In this step, you’ll be presented with some extra options to customize your installation, such as:
+<br> Enable file system caching
+<br>Enable symbolic links
+<br> Once done making your selections, click Next.
+![alt text](image-14.png)
+
+- step 16: If you’re installing a newer version of Git, it’ll next prompt you to select experimental features. As of this writing, the options include:
+
+<br>Support for pseudo consoles
+<br>Built-in file system monitor
+<br>Check the boxes to whichever you’d like (or none), then click Install.
+![alt text](image-15.png)
+
+- Step 17: Final step is to check if the git is installed, the command used is "git --version"
+![alt text](<Screenshot from 2024-06-15 15-37-42.png>)
+
+
+
+Here is the link to my Github Account: "https://github.com/samuel-kimwele-mbai" 
+Here is the link to my first commmit "https://github.com/samuel-kimwele-mbai/Git-session-PLp"
+
+
+
 
 4. Install Necessary Programming Languages and Runtimes:
   Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
