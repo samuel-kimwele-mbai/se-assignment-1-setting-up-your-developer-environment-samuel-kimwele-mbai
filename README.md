@@ -226,20 +226,205 @@ Here is the link to my first commmit "https://github.com/samuel-kimwele-mbai/Git
 4. Install Necessary Programming Languages and Runtimes:
   Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
 
+- how to install python.
+- Step 1: Select the Python's version to download.
+
+![alt text](py1.png)
+
+- step 2: Click on the Install Now, Double-click the executable file, which is downloaded and the following window will open.
+
+Select Customize installation and proceed.
+
+Click on the Add Path check box, it will set the Python path automatically.
+![alt text](image-16.png)
+
+- step 3: the installation process
+![alt text](image-17.png)
+
+<br> Type the command "python -version"
+![alt text](py2.png)
+
+
 5. Install Package Managers:
    If applicable, install package managers like pip (Python).
+- Download the get-pip.py script:
+Visit the following link "https://bootstrap.pypa.io/get-pip.py"  to download the get-pip.py script:
+
+- Run the script:
+Open a Command Prompt with administrative privileges and run the following command: "python get-pip.py"
+
 
 6. Configure a Database (MySQL):
    Download and install MySQL database. https://dev.mysql.com/downloads/windows/installer/5.7.html
+- Step 1: Download MySQL Installer
+- Visit the MySQL Downloads Page:
+- Download MySQL Installer:
+- Click on the "Download" button for the MySQL Installer. Choose the web community version, which is a smaller installer that will download the components you select during the installation process.
+
+- Step 2: Install MySQL
+- Run the Installer:
+- After downloading, run the installer file 
+- Choose Setup Type:
+
+- Developer Default: Installs the MySQL server.
+Server Only: Installs only the MySQL server.
+
+- Check Requirements:
+- The installer will check for any missing requirements and prompt you to install them if necessary.
+
+- Install MySQL Products:
+- The installer will download and install the selected products.
+
+- Step 3: Configure MySQL Server
+- Server Configuration:
+
+- Config Type: Choose "Development Machine" for a typical developer environment.
+- Accounts and Roles:
+
+- Root Password: Set a strong root password.
+- Windows Service:
+
+- Service Name: Leave the default name .
+- Start the MySQL Server at System Startup: Keep this option selected for automatic startup.
+- Apply Configuration:
+- Click Execute to apply the configuration settings. The installer will configure and start the MySQL server.
+
+- Step 4: Verify Installation
+- Open MySQL Command Line Client:
+- After installation, open the MySQL Command Line Client from the Start menu. You will be prompted to enter the root password you set during the installation.
+
+- Step 5: Secure MySQL Installation 
+Run the mysql_secure_installation script to enhance the security of your MySQL installation. This script can be run from the command line and will prompt you to:
+
+- Set a root password 
+- Remove anonymous users
+- Disallow root login remotely
+
+
+
 
 7. Set Up Development Environments and Virtualization (Optional):
    Consider using virtualization tools like Docker or virtual machines to isolate project dependencies and ensure consistent environments across different machines.
 
+- Step 1: Install Docker
+- Download Docker Desktop:
+- Go to the Docker Desktop download page and download the installer for your operating system 
+- Install Docker Desktop:
+- Run the downloaded installer and follow the on-screen instructions to complete the installation.
+
+- Verify Installation:
+Open a terminal or command prompt and run:
+
+
+- docker --version
+- This display the installed Docker version.
+
+- Step 2: Set Up a Docker Environment
+- Create a Dockerfile:
+- In your project directory, create a Dockerfile to define your application's environment. 
+
+- Build the Docker Image:
+Open a terminal in your project directory and run:
+
+- docker build -t my-python-app .
+- Run the Docker Container:
+
+- docker run -p 4000:80 my-python-app
+- Access the Application:
+- Open a web browser and go to http://localhost:4000 to see your running application.
+
 8. Explore Extensions and Plugins:
    Explore available extensions, plugins, and add-ons for your chosen text editor or IDE to enhance functionality, such as syntax highlighting, linting, code formatting, and version control integration.
 
+VS Code is a widely-used, powerful, and customizable text editor that supports a vast array of extensions.
+
+1. Python
+Extension: Python
+Features: Syntax highlighting, IntelliSense, code navigation, linting, debugging, and Jupyter notebook support.
+2. SQL Viewer
+Extension: SQLTools
+Features: Database management, query running, and result viewing for multiple SQL databases.
+3. SQLite
+Extension: SQLite
+Features: SQLite database management, execution of SQL queries, and viewing of query results.
+4. Dart
+Extension: Dart
+Features: Dart language support, including code completion, analysis, formatting, and debugging.
+5. Pylance
+Extension: Pylance
+Features: High-performance, feature-rich language support for Python, including type checking and type inference.
+6. SQL Tools
+Extension: SQLTools
+Features: Database management and query running for SQL databases.
+
+
 9. Document Your Setup:
     Create a comprehensive document outlining the steps you've taken to set up your developer environment. Include any configurations, customizations, or troubleshooting steps encountered during the process. 
+
+- Step 1: Download MySQL Installer
+File: mysql-installer-web-community-5.7.x.msi
+- Step 2: Install MySQL
+Run the Installer: Double-click the downloaded installer file.
+Choose Setup Type: Select Developer Default for a typical developer setup.
+Check Requirements: Installer will prompt to install any missing requirements.
+Install MySQL Products: Follow the prompts to install MySQL server and related tools.
+- Step 3: Configure MySQL Server
+Server Configuration:
+Config Type: Development Machine
+Connectivity: Default port 3306
+Authentication Method: Use Strong Password Encryption
+Accounts and Roles:
+Root Password: Set a strong password
+User Accounts: Optionally, create additional user accounts
+Windows Service:
+Service Name: MySQL57
+Start at System Startup: Enabled
+Apply Configuration: Click Execute to apply the configuration.
+- Step 4: Verify Installation
+Open MySQL Command Line Client.
+Run a Test Query:
+
+SHOW DATABASES;
+- Step 5: Secure MySQL Installation
+Run mysql_secure_installation from the command line to enhance security by setting a root password, removing anonymous users, disallowing remote root login, and removing the test database.
+
+- Docker Installation and Configuration
+Step 1: Install Docker
+Download and Install: Follow the instructions on the website to download and install Docker Desktop for your operating system.
+-Step 2: Verify Installation
+Open Terminal.
+- Run: docker --version
+
+- Step 3: Set Up a Docker Environment
+Create a Dockerfile in your project directory
+
+- Build the Docker Image:
+
+docker build -t my-python-app .
+- Run the Docker Container:
+
+docker run -p 4000:80 my-python-app
+Access the Application:
+Open a web browser and navigate to http://localhost:4000.
+
+- python extension installation
+-Step 1. Install a supported version of Python on your system (note: that the system install of Python on macOS is not supported).
+- Step 2. Install the Python extension for Visual Studio Code.
+- Step 3. Open or create a Python file and start coding!
+
+- Troubleshooting Steps
+- MySQL
+- Issue: Can't connect to MySQL server
+- Solution: Ensure MySQL service is running. Use services.msc to start the MySQL service if it's not running.
+- Docker
+- Issue: Docker Desktop not starting
+- Solution: Ensure virtualization is enabled in BIOS/UEFI settings. Reinstall Docker Desktop if necessary.
+- VS Code Extensions
+- Issue: Extensions not working correctly
+- Solution: Reload VS Code or restart the computer. Ensure there are no conflicting extensions.
+
+
+
 
 #Deliverables:
 - Document detailing the setup process with step-by-step instructions and screenshots where necessary.
